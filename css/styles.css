@@ -1,0 +1,184 @@
+:root {
+  --primary-brand-color: #4d5ae5;
+  --pressed-state-color: #404bbf;
+  --dark-color: #2e2f42;
+  --text-color: #434455;
+  --accent-color: #e7e9fc;
+  --light-mode-color: #f4f4fd;
+  --bg-white-color: #ffffff;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  color: var(--text-color);
+  background-color: var(--bg-white-color);
+}
+
+/* ======================== COMPONENTS ======================== */
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--primary-brand-color);
+}
+
+.logo-theme-light {
+  color: var(--dark-color);
+}
+
+.logo-theme-dark {
+  color: var(--light-mode-color);
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: var(--dark-color);
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  color: var(--dark-color);
+}
+
+/* ============================= Header =========================== */
+
+.menu-link {
+  font-weight: 500;
+  color: var(--dark-color);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--pressed-state-color);
+}
+
+/* Contacts */
+
+.contact-mail,
+.contact-phone {
+  color: var(--text-color);
+}
+
+.contact-mail:hover,
+.contact-mail:focus {
+  color: var(--pressed-state-color);
+}
+
+.contact-phone:hover,
+.contact-phone:focus {
+  color: var(--pressed-state-color);
+}
+
+/* =================================== Hero ========================== */
+
+.hero {
+  background-color: var(--dark-color);
+}
+
+.main-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+
+  color: var(--bg-white-color);
+}
+
+.modal-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  color: var(--bg-white-color);
+  background-color: var(--primary-brand-color);
+
+  cursor: pointer;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: var(--pressed-state-color);
+}
+
+/* =============================== Our team =========================== */
+
+.team {
+  background-color: var(--light-mode-color);
+}
+
+.team-card {
+  background-color: var(--bg-white-color);
+}
+
+.name,
+.position {
+  text-align: center;
+}
+
+/* ============================ PORTFOLIO FILTERS ==================== */
+
+.filter-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  color: var(--primary-brand-color);
+  background-color: var(--accent-color);
+
+  cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--bg-white-color);
+  background-color: var(--pressed-state-color);
+}
+
+/* ============================== PROJECTS =========================== */
+
+.project-card-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  color: var(--dark-color);
+}
+
+/* ============================== Footer ============================== */
+
+.page-footer {
+  background-color: var(--dark-color);
+}
+
+.slogan {
+  color: var(--accent-color);
+}
