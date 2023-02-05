@@ -305,7 +305,7 @@ body {
 .filter-btn:focus {
   color: var(--bg-white-color);
   background-color: var(--pressed-state-color);
-  border: none;
+  border: 1px solid transparent;
 }
 
 /* ============================== PROJECTS =========================== */
